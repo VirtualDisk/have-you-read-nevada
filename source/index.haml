@@ -5,10 +5,10 @@
 
   .links
     = link_to 'Amazon.com',
-      'http://www.amazon.com/Nevada-Imogen-Binnie/dp/0983242232/',
+      'https://www.amazon.com/Audible-Nevada-A-Novel/dp/B09GPZSBT2/ref=sr_1_1?crid=2NXC2L7S9GUIA&keywords=nevada+imogen+binnie&qid=1705788094&sprefix=nevada+imogen+binnie%2Caps%2C83&sr=8-1',
       target: '_blank'
-    = link_to 'Topside Press', 'http://shop.topsidepress.com/product/nevada/',
-      target: '_blank'
+    -# = link_to 'Topside Press', 'http://shop.topsidepress.com/product/nevada/',
+    -#   target: '_blank'
 
 .download
   = "...or download a digital one"
@@ -17,6 +17,7 @@
     = link_to 'Nevada.pdf', 'nevada.pdf', download: 'nevada'
     = link_to 'Nevada.epub', 'nevada.epub', download: 'nevada.epub'
     = link_to 'Nevada.mobi', 'nevada-mobi.zip', download: 'nevada-mobi.zip'
+    = link_to 'Nevada.zip (Audiobook)', 'nevada-mp3.zip', download: 'nevada-mp3.zip'
 
 .disclaimer
   This site is unaffiliated with Topside Press, and is intended to simplify the
@@ -27,6 +28,10 @@
     target: '_blank'
 
 .credits
-  = link_to '@ZoeyAWolfe', 'https://twitter.com/ZoeyAWolfe', target: '_blank'
+  This is a modified version of the original haveyoureadnevada.club with new links. 
+  The previous version had a non-working Amazon link as well as a link to Topsite Press,
+  Which no longer exists on the internet.
+
+  Original site created by some old friends. Wherever you are, I wish you the best.
   = link_to 'source', 'https://github.com/EpicH0liday/have-you-read-nevada',
     target: '_blank'
