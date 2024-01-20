@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    platform: linux/amd64
+    image: docker.io/virtualdisk/hyrn:main
+    ports:
+      - 8080:80
