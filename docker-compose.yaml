@@ -2,6 +2,6 @@ services:
   web:
     build: .
     platform: linux/amd64
-    image: docker.io/virtualdisk/hyrn:main
+    image: core.harbor.zcr.io/zcr.io/virtualdisk/hyrn:2
     ports:
       - 8080:80
